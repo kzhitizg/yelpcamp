@@ -1,0 +1,67 @@
+#showImg{
+    width:100%;
+}
+
+#showThumb{
+    padding:0;
+}
+
+.thumbnail .caption-full{
+    margin:9px;
+}
+
+.comment-edit{
+    color: #aaaaaa;
+    text-decoration: underline;
+    outline:none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+}
+
+.comment-edit:hover{
+    color: #8d8d8d;
+    text-decoration: underline;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+}
+
+#content{
+    padding-bottom: 2.5rem;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: right;
+    background-color: #bfe6ff
+}
+
+.hidden{
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+#login-button{
+    outline:none;
+    padding: 15px;
+    margin: 0;
+    border: none;
+    background: transparent;
+    color: #777;
+}
+
+#login-button:hover{
+    color:#333;
+}
+
+.wrong-input{
+    background-color: #ffa4a4;
+}
